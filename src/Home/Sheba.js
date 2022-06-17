@@ -14,6 +14,7 @@ const Sheba = () => {
                     <SingleSheba cardTitle="রসায়ন" bgClass="bg-gradient-to-r from-info to-success" ></SingleSheba>
                     <SingleSheba cardTitle="পদার্থ" bgClass="bg-gradient-to-r from-primary to-error" ></SingleSheba>
                     <SingleSheba cardTitle="জীব বিজ্ঞান" bgClass="bg-gradient-to-r from-neutral to-warning" ></SingleSheba>
+                    <SingleSheba cardTitle="আইসিটি" bgClass="bg-gradient-to-r from-accent to-danger" ></SingleSheba>
   
                 
             </div>
