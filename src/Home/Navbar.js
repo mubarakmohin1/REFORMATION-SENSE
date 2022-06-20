@@ -28,7 +28,7 @@ const Navbar = () => {
                 
                 
                <a className="btn btn-ghost normal-case text-xl">REFORMATION SENSE</a>
-                <li className='btn btn-ghost bg-info mt-4 align-items-center normal-case mr-4 lg:hidden text-xl underline'> <Link to={"/courses"}>Courses</Link></li>
+                <li className='btn btn-ghost bg-info mt-4 normal-case mr-4 lg:hidden text-xl underline'> <Link to={"/courses"}>Courses</Link></li>
                 
                 
             </div>
