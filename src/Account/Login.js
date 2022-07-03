@@ -18,15 +18,15 @@ const Login = () => {
                 <div className="card-body">
                     <h2 className="text-center font-bold text-2xl">Login</h2>
                     <form onSubmit={handleSubmit(onSubmit)}>
-                        <div class="form-control w-full max-w-xs">
-                            <label class="label">
-                                <span class="label-text">What is your email?</span>
+                        <div className="form-control w-full max-w-xs">
+                            <label className="label">
+                                <span className="label-text">What is your email?</span>
 
                             </label>
                             <input
                                 type="text"
                                 placeholder="Your Email"
-                                class="input input-bordered w-full max-w-xs"
+                                className="input input-bordered w-full max-w-xs"
                                 {...register("email", {
                                     required:{
                                         value:true,
@@ -34,19 +34,19 @@ const Login = () => {
                                     }
                                 })}
                             />
-                            <label class="label">
-                            {errors.email?.type === 'required' &&  <span class="label-text-alt text-red-500">{errors.email.message}</span> }
+                            <label className="label">
+                            {errors.email?.type === 'required' &&  <span className="label-text-alt text-red-500">{errors.email.message}</span> }
                             </label>
                         </div>
-                        <div class="form-control w-full max-w-xs">
-                            <label class="label">
-                            <span class="label-text">What is your password?</span>
+                        <div className="form-control w-full max-w-xs">
+                            <label className="label">
+                            <span className="label-text">What is your password?</span>
 
                             </label>
                             <input
                                 type="number"
                                 placeholder="Your Password"
-                                class="input input-bordered w-full max-w-xs"
+                                className="input input-bordered w-full max-w-xs"
                                 {...register("password", {
                                     required:{
                                         value:true,
@@ -54,8 +54,8 @@ const Login = () => {
                                     }
                                 })}
                             />
-                            <label class="label">
-                            {errors.password?.type === 'required' &&  <span class="label-text-alt text-red-500">{errors.password.message}</span> }
+                            <label className="label">
+                            {errors.password?.type === 'required' &&  <span className="label-text-alt text-red-500">{errors.password.message}</span> }
                                
                             </label>
                         </div>

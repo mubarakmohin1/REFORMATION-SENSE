@@ -6,6 +6,7 @@ import Navbar from './Home/Navbar';
 import Footer from './Home/Footer'
 import Login from './Account/Login';
 import Register from './Account/Register';
+import Profile from './Shared/Profile';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element ={<Home></Home>} ></Route>
         <Route path="/courses" element={<Courses></Courses>}></Route>
+        <Route path="/profile" element={<Profile></Profile>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
       </Routes>

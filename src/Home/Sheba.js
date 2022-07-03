@@ -9,12 +9,12 @@ const Sheba = () => {
             <div className=' mt-4 grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-5'>
 
                 
-                    <SingleSheba cardTitle="গনিত" bgClass="bg-gradient-to-r from-secondary to-primary" ></SingleSheba>
-                    <SingleSheba cardTitle="ইংরেজি" bgClass="bg-gradient-to-r from-accent to-secondary" ></SingleSheba>
-                    <SingleSheba cardTitle="রসায়ন" bgClass="bg-gradient-to-r from-info to-success" ></SingleSheba>
-                    <SingleSheba cardTitle="পদার্থ" bgClass="bg-gradient-to-r from-primary to-error" ></SingleSheba>
-                    <SingleSheba cardTitle="জীব বিজ্ঞান" bgClass="bg-gradient-to-r from-neutral to-warning" ></SingleSheba>
-                    <SingleSheba cardTitle="আইসিটি" bgClass="bg-gradient-to-r from-accent to-danger" ></SingleSheba>
+                    <SingleSheba cardTitle="গনিত" bgclassName="bg-gradient-to-r from-secondary to-primary" ></SingleSheba>
+                    <SingleSheba cardTitle="ইংরেজি" bgclassName="bg-gradient-to-r from-accent to-secondary" ></SingleSheba>
+                    <SingleSheba cardTitle="রসায়ন" bgclassName="bg-gradient-to-r from-info to-success" ></SingleSheba>
+                    <SingleSheba cardTitle="পদার্থ" bgclassName="bg-gradient-to-r from-primary to-error" ></SingleSheba>
+                    <SingleSheba cardTitle="জীব বিজ্ঞান" bgclassName="bg-gradient-to-r from-neutral to-warning" ></SingleSheba>
+                    <SingleSheba cardTitle="আইসিটি" bgclassName="bg-gradient-to-r from-accent to-danger" ></SingleSheba>
   
                 
             </div>
